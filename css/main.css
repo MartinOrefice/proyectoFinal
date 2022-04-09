@@ -172,6 +172,27 @@ footer{
     .mainIndex  pre{
         font-size: 20px;
     }
+    .section1 img{
+        width: 100px;
+    }
+    .section2 img{
+        width: 100px;
+    }
+    .section3 img{
+        width: 100px;
+    } 
+    .contenidoFooter{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .logo a img{
+        width: 50px
+    }
+    .mainIndex pre{
+        font-size: 10px;
+    }
 }
 
 /*catalogo*/
@@ -204,7 +225,10 @@ footer{
 } 
 .sectionCatalogoUno img{
     width: 200px;
-}  
+}
+.sectionCatalogoUno img:hover{
+    transform: scale(1.2);
+}
 .sectionCatalogoDos{
     grid-area: section2;
     display: flex;
@@ -214,6 +238,9 @@ footer{
 }
 .sectionCatalogoDos img{
     width: 200px;
+}
+.sectionCatalogoDos img:hover{
+    transform: scale(1.2);
 }
 .sectionCatalogoTres{
     grid-area: section3;
@@ -225,7 +252,9 @@ footer{
 .sectionCatalogoTres img{
     width: 200px;
 }
-
+.sectionCatalogoTres img:hover{
+    transform: scale(1.2);
+}
 .parrafoCatalogo{
     color: white;
 }
