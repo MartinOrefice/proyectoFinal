@@ -258,3 +258,25 @@ footer{
 .parrafoCatalogo{
     color: white;
 }
+
+/* contacto */
+
+.contenedorContacto{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.2fr 1.5fr 0.2fr;
+
+    /*estructurar areas*/
+    grid-template-areas: "header header header"
+                         "main main main"  
+                         "footer footer footer";
+}
+
+.mainContacto{
+    grid-area: main;
+    background-color: #2e2e2e;
+}
+footer{
+    grid-area: footer;
+}
