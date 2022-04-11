@@ -74,12 +74,13 @@ main{
     
 }
 
-.mainIndex  pre, .mainCatalogo pre {
+.mainIndex .tituloIndex, .mainCatalogo pre {
     font-size: 50px;
     color: white;
     padding: 10px;
     border: 2px solid red;
     border-radius: 15px;
+    text-align: center;
     
 }
 
@@ -140,7 +141,7 @@ footer{
         font-size: 15px; 
     }
 
-    .mainIndex pre{
+    .mainIndex .tituloIndex{
         font-size: 35px;
     }
 
@@ -169,7 +170,7 @@ footer{
         font-size: 12px;
         
     }
-    .mainIndex  pre{
+    .mainIndex .tituloIndex{
         font-size: 20px;
     }
     .section1 img{
@@ -206,9 +207,9 @@ footer{
     /*estructurar areas*/
     grid-template-areas: "header header header"
                         "main main main"
-                        "section1 section1 section1" 
-                        "section2 section2 section2"
-                        "section3 section3 section3"  
+                        "section1 section4 section4" 
+                        "section2 section5 section5"
+                        "section3 section6 section6"  
                         "footer footer footer";
 }
 
@@ -255,9 +256,50 @@ footer{
 .sectionCatalogoTres img:hover{
     transform: scale(1.2);
 }
+.sectionCatalogoCuatro{
+    grid-area: section4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.sectionCatalogoCuatro img{
+    width: 200px;
+}
+.sectionCatalogoCuatro img:hover{
+    transform: scale(1.2);
+}
+.sectionCatalogoCinco{
+    grid-area: section5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.sectionCatalogoCinco img{
+    width: 190px;
+}
+.sectionCatalogoCinco img:hover{
+    transform: scale(1.2);
+}
+.sectionCatalogoSeis{
+    grid-area: section6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.sectionCatalogoSeis img{
+    width: 200px;
+}
+.sectionCatalogoSeis img:hover{
+    transform: scale(1.2);
+}
+
 .parrafoCatalogo{
     color: white;
 }
+
 
 /* contacto */
 
@@ -265,16 +307,16 @@ footer{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.2fr 1.5fr 0.2fr;
+    grid-template-rows: 0.2fr 7.5fr 0.8fr;
 
     /*estructurar areas*/
     grid-template-areas: "header header header"
-                         "main main main"  
+                         "mainCo mainCo mainCo"  
                          "footer footer footer";
 }
 
 .mainContacto{
-    grid-area: main;
+    grid-area: mainCo;
     background-color: #2e2e2e;
 }
 footer{
