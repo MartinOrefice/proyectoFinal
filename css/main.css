@@ -20,7 +20,13 @@
 }
 
 /*propiedades de las area*/
-
+header{
+    grid-area: header;
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .logo a img{
     width: 120px;
