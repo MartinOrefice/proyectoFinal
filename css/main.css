@@ -10,7 +10,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.2fr 1.5fr 2fr 0.8fr;
+    grid-template-rows: 0.5fr 1.5fr 2fr 0.8fr;
 
     /*estructurar areas*/
     grid-template-areas: "header header header"
@@ -20,16 +20,10 @@
 }
 
 /*propiedades de las area*/
-header{
-    grid-area: header;
-    background-color: #2e2e2e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .logo a img{
-    width: 150px;
+    width: 120px;
     padding-left: 20px;
 }
 
@@ -39,8 +33,8 @@ header{
 
 .navegador ul li{
     display: inline-block;
-    padding: 50px;
-    font-size: 20px;
+    padding: 40px;
+    font-size: 15px;
     
 }
 
@@ -62,25 +56,19 @@ header{
 }
 
 .section1 img{
-    width: 400px;
+    width: 300px;
 }
 
-main{
-    grid-area: main;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    
-}
 
-.mainIndex .tituloIndex, .mainCatalogo pre {
-    font-size: 50px;
+
+.mainIndex .tituloIndex, .mainCatalogo h1 {
+    font-size: 40px;
     color: white;
     padding: 10px;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 15px;
     text-align: center;
+    margin: 50px;
     
 }
 
@@ -92,7 +80,7 @@ main{
 }
 
 .section2 img{
-    width: 400px;
+    width: 300px;
 }
    
 .section3{
@@ -103,7 +91,7 @@ main{
 }
 
 .section3 img{
-    width: 400px;
+    width: 300px;
 }
    
 footer{
@@ -228,7 +216,7 @@ footer{
     width: 200px;
 }
 .sectionCatalogoUno img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .sectionCatalogoDos{
     grid-area: section2;
@@ -241,7 +229,7 @@ footer{
     width: 200px;
 }
 .sectionCatalogoDos img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .sectionCatalogoTres{
     grid-area: section3;
@@ -254,7 +242,7 @@ footer{
     width: 200px;
 }
 .sectionCatalogoTres img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .sectionCatalogoCuatro{
     grid-area: section4;
@@ -267,7 +255,7 @@ footer{
     width: 200px;
 }
 .sectionCatalogoCuatro img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .sectionCatalogoCinco{
     grid-area: section5;
@@ -277,10 +265,10 @@ footer{
     background-color: rgb(0, 0, 0);
 }
 .sectionCatalogoCinco img{
-    width: 190px;
+    width: 180px;
 }
 .sectionCatalogoCinco img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .sectionCatalogoSeis{
     grid-area: section6;
@@ -293,11 +281,12 @@ footer{
     width: 200px;
 }
 .sectionCatalogoSeis img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .parrafoCatalogo{
     color: white;
+    
 }
 
 
