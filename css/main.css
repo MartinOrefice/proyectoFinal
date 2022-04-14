@@ -65,6 +65,15 @@ header{
     width: 300px;
 }
 
+main{
+    grid-area: main;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    
+}
+
 .mainIndex .tituloIndex, .mainCatalogo pre {
     font-size: 50px;
     color: white;
