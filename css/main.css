@@ -28,7 +28,7 @@ header{
     align-items: center;
 }
 
-.logo a img{
+.imgLogo{
     width: 120px;
     padding-left: 20px;
 }
@@ -171,7 +171,7 @@ footer{
 }
 
 @media only screen and (max-width: 600px){
-    .logo a img{
+    .imgLogo{
         width: 100px;
     }
     header{
@@ -201,7 +201,7 @@ footer{
 }
 
 @media only screen and (max-width: 480px){
-    .logo a img{
+    .imgLogo{
         width: 50px
     }
     .mainIndex pre{
@@ -335,4 +335,27 @@ footer{
 }
 footer{
     grid-area: footer;
+}
+
+/*nav bootstrap*/
+
+.navbar-nav .nav-item{
+    display: inline-block;
+    padding: 40px;
+    font-size: 15px;
+}
+.navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease 0s; 
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #CE0000;
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
+.imgLogo{
+    width: 120px;
+    padding-left: 20px;
 }
