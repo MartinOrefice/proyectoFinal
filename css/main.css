@@ -331,7 +331,33 @@ footer{
 
 .mainContacto{
     grid-area: mainCo;
+    background-color: #000000;
+}
+form{
     background-color: #2e2e2e;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+legend{
+    text-align: center;
+}
+.divForm{
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.submit{
+    margin-top: 25px;
+    text-align: center;
+}
+.inputSubmit{
+    padding: 5px 15px 5px 15px;
+}
+input{
+    border-radius: 10px;
+    font-size: 15px;
 }
 footer{
     grid-area: footer;
