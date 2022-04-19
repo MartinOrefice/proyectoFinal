@@ -337,6 +337,7 @@ form{
     background-color: #2e2e2e;
     color: white;
     padding: 40px;
+    border: 2px solid #CE0000;
     border-radius: 20px;
     font-size: 20px;
 }
