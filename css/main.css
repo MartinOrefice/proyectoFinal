@@ -86,7 +86,7 @@ main{
 
 
 
-.mainIndex .tituloIndex, .mainCatalogo h1 {
+.mainIndex .tituloIndex, .mainCatalogo h1, .tituloPromos {
     font-size: 40px;
     color: white;
     padding: 10px;
@@ -358,4 +358,12 @@ footer{
 .imgLogo{
     width: 120px;
     padding-left: 20px;
+}
+
+/* promociones */
+.card{
+    border-radius: 50px;
+}
+.card:hover{
+    transform: scale(1.1);
 }
