@@ -1,9 +1,13 @@
+/*RESET*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+/*INDEX*/
 
 /*propiedades del padre*/
 .contenedor{
@@ -130,83 +134,6 @@ footer{
 .contenidoFooter{
     font-size: 20px;
     color: white;
-}
-
-/* media queries*/
-
-@media only screen and (max-width: 1024px){
-    .contenedor{
-        height: 100vh;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 0.2fr 1.5fr 2fr 2fr 2fr 0.8fr;
-        grid-template-areas: "header header header"
-        "main main main"
-        "section section section" 
-        "section2 section2 section2"
-        "section3 section3 section3"  
-        "footer footer footer"; 
-    }
-    
-    .navegador ul li{
-        display: inline-block;
-        padding: 25px;
-        font-size: 15px; 
-    }
-
-    .mainIndex .tituloIndex{
-        font-size: 35px;
-    }
-
-    .section1 img{
-        width: 200px;
-    }
-    .section2 img{
-        width: 200px;
-    }
-    .section3 img{
-        width: 200px;
-    }    
-
-}
-
-@media only screen and (max-width: 600px){
-    .imgLogo{
-        width: 100px;
-    }
-    header{
-        justify-content: center;
-    }
-    .navegador ul li{
-        display: inline-block;
-        padding: 5px;
-        font-size: 12px;
-        
-    }
-    .mainIndex .tituloIndex{
-        font-size: 20px;
-    }
-    .section1 img{
-        width: 100px;
-    }
-    .section2 img{
-        width: 100px;
-    }
-    .section3 img{
-        width: 100px;
-    } 
-    .contenidoFooter{
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 480px){
-    .imgLogo{
-        width: 50px
-    }
-    .mainIndex pre{
-        font-size: 10px;
-    }
 }
 
 /*catalogo*/
@@ -341,6 +268,7 @@ form{
     border-radius: 20px;
     font-size: 20px;
 }
+
 legend{
     text-align: center;
 }
@@ -393,4 +321,87 @@ footer{
 }
 .card:hover{
     transform: scale(1.1);
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1024px){
+    .contenedor{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.2fr 1.5fr 2fr 2fr 2fr 0.8fr;
+        grid-template-areas: "header header header"
+        "main main main"
+        "section section section" 
+        "section2 section2 section2"
+        "section3 section3 section3"  
+        "footer footer footer"; 
+    }
+    
+    .navegador ul li{
+        display: inline-block;
+        padding: 25px;
+        font-size: 15px; 
+    }
+
+    .mainIndex .tituloIndex{
+        font-size: 35px;
+    }
+
+    .section1 img{
+        width: 200px;
+    }
+    .section2 img{
+        width: 200px;
+    }
+    .section3 img{
+        width: 200px;
+    }    
+
+}
+
+@media only screen and (max-width: 600px){
+    /*INDEX*/
+    .imgLogo{
+        width: 100px;
+    }
+    header{
+        justify-content: center;
+    }
+    .navegador ul li{
+        display: inline-block;
+        padding: 5px;
+        font-size: 12px;
+        
+    }
+    .mainIndex .tituloIndex{
+        font-size: 20px;
+    }
+    .section1 img{
+        width: 100px;
+    }
+    .section2 img{
+        width: 100px;
+    }
+    .section3 img{
+        width: 100px;
+    } 
+    .contenidoFooter{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    /*INDEX*/
+    .imgLogo{
+        width: 50px
+    }
+    .mainIndex pre{
+        font-size: 10px;
+    }
+    /*PROMOCIONES*/
+    .tituloPromos{
+        font-size: 25px;
+    }
 }
