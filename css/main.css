@@ -167,9 +167,6 @@ footer{
 .sectionCatalogoUno img{
     width: 200px;
 }
-.sectionCatalogoUno img:hover{
-    transform: scale(1.1);
-}
 .sectionCatalogoDos{
     grid-area: section2;
     display: flex;
@@ -179,9 +176,6 @@ footer{
 }
 .sectionCatalogoDos img{
     width: 200px;
-}
-.sectionCatalogoDos img:hover{
-    transform: scale(1.1);
 }
 .sectionCatalogoTres{
     grid-area: section3;
@@ -193,9 +187,6 @@ footer{
 .sectionCatalogoTres img{
     width: 200px;
 }
-.sectionCatalogoTres img:hover{
-    transform: scale(1.1);
-}
 .sectionCatalogoCuatro{
     grid-area: section4;
     display: flex;
@@ -205,9 +196,6 @@ footer{
 }
 .sectionCatalogoCuatro img{
     width: 200px;
-}
-.sectionCatalogoCuatro img:hover{
-    transform: scale(1.1);
 }
 .sectionCatalogoCinco{
     grid-area: section5;
@@ -219,9 +207,6 @@ footer{
 .sectionCatalogoCinco img{
     width: 180px;
 }
-.sectionCatalogoCinco img:hover{
-    transform: scale(1.1);
-}
 .sectionCatalogoSeis{
     grid-area: section6;
     display: flex;
@@ -232,13 +217,10 @@ footer{
 .sectionCatalogoSeis img{
     width: 200px;
 }
-.sectionCatalogoSeis img:hover{
-    transform: scale(1.1);
-}
 
 .parrafoCatalogo{
     color: white;
-    
+    font-size: 20px;
 }
 
 
@@ -325,7 +307,10 @@ footer{
 
 /* MEDIA QUERIES */
 
+/*TABLETS*/
+
 @media only screen and (max-width: 1024px){
+    /*INDEX*/
     .contenedor{
         height: 100vh;
         display: grid;
@@ -338,28 +323,29 @@ footer{
         "section3 section3 section3"  
         "footer footer footer"; 
     }
-    
     .navegador ul li{
         display: inline-block;
         padding: 25px;
         font-size: 15px; 
     }
-
     .mainIndex .tituloIndex{
         font-size: 35px;
     }
-
-    .section1 img{
+    .section1 img, .section2 img, .section3 img{
         width: 200px;
     }
-    .section2 img{
-        width: 200px;
-    }
-    .section3 img{
-        width: 200px;
-    }    
 
+    /*CATALOGO*/
+
+    .sectionCatalogoUno img, .sectionCatalogoDos img, .sectionCatalogoTres img, .sectionCatalogoCuatro img, .sectionCatalogoCinco img, .sectionCatalogoSeis img{
+        width: 150px;
+    }
+    .parrafoCatalogo{
+        font-size: 10px;
+    }
 }
+
+/*MOBILE*/
 
 @media only screen and (max-width: 600px){
     /*INDEX*/
@@ -378,28 +364,41 @@ footer{
     .mainIndex .tituloIndex{
         font-size: 20px;
     }
-    .section1 img{
+    .section1 img, .section2 img, .section3 img{
         width: 100px;
     }
-    .section2 img{
-        width: 100px;
-    }
-    .section3 img{
-        width: 100px;
-    } 
     .contenidoFooter{
         font-size: 10px;
     }
+
+    /*CATALOGO*/
+
+    .sectionCatalogoUno img, .sectionCatalogoDos img, .sectionCatalogoTres img, .sectionCatalogoCuatro img, .sectionCatalogoCinco img, .sectionCatalogoSeis img{
+        width: 100px;
+    }
+    .parrafoCatalogo{
+        font-size: 8px;
+    }
+
 }
 
 @media only screen and (max-width: 480px){
     /*INDEX*/
     .imgLogo{
-        width: 50px
+        width: 70px
     }
     .mainIndex pre{
         font-size: 10px;
     }
+
+    /*CATALOGO*/
+    .sectionCatalogoUno img, .sectionCatalogoDos img, .sectionCatalogoTres img, .sectionCatalogoCuatro img, .sectionCatalogoCinco img, .sectionCatalogoSeis img{
+        width: 100px;
+    }
+    .parrafoCatalogo{
+        font-size: 10px;
+    }
+
     /*PROMOCIONES*/
     .tituloPromos{
         font-size: 25px;
