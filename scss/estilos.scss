@@ -316,6 +316,33 @@ footer{
     padding-left: 20px;
 }
 
+/*NOSOTROS*/
+
+.mainNosotros{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    div{
+        display: inline-block;
+        h1{
+        
+            font-size: 40px;
+            color: white;
+            padding: 10px;
+            border: 1px solid $color-principal;
+            border-radius: 15px;
+            text-align: center;
+            margin: 50px; 
+        }
+    }
+    .contenedorParrafo{
+        display: inline-block;
+        p{
+            color: white;
+        }
+    }
+}
+
 /* promociones */
 
 .card{
@@ -324,6 +351,18 @@ footer{
         transform: scale(1.1);
     }
 }
+
+.row{
+    .card{
+        .card-body{
+            .card-title{
+                font-size: 20px;
+            }
+        }
+    
+    }
+}
+
 
 /* MEDIA QUERIES */
 

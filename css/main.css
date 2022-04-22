@@ -234,11 +234,34 @@ footer {
   width: 120px;
   padding-left: 20px; }
 
+/*NOSOTROS*/
+.mainNosotros {
+  height: 500px;
+  display: flex;
+  justify-content: center; }
+  .mainNosotros div {
+    display: inline-block; }
+    .mainNosotros div h1 {
+      font-size: 40px;
+      color: white;
+      padding: 10px;
+      border: 1px solid #CE0000;
+      border-radius: 15px;
+      text-align: center;
+      margin: 50px; }
+  .mainNosotros .contenedorParrafo {
+    display: inline-block; }
+    .mainNosotros .contenedorParrafo p {
+      color: white; }
+
 /* promociones */
 .card {
   border-radius: 50px; }
   .card:hover {
     transform: scale(1.1); }
+
+.row .card .card-body .card-title {
+  font-size: 20px; }
 
 /* MEDIA QUERIES */
 /*TABLETS*/
