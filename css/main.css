@@ -198,19 +198,24 @@ footer {
     border-radius: 20px;
     font-size: 20px; }
     .mainContacto form legend {
-      text-align: center; }
+      text-align: center;
+      font-size: 35px; }
     .mainContacto form .divForm {
       padding: 10px;
       font-size: 15px;
       text-align: center; }
     .mainContacto form input {
-      border-radius: 10px;
+      border: 1px solid #CE0000;
+      border-radius: 5px;
       font-size: 15px; }
     .mainContacto form .submit {
       margin-top: 25px;
       text-align: center; }
       .mainContacto form .submit .inputSubmit {
-        padding: 5px 15px 5px 15px; }
+        padding: 5px 15px 5px 15px;
+        border: #000000;
+        background-color: #CE0000;
+        color: white; }
 
 footer {
   grid-area: footer; }
@@ -236,6 +241,11 @@ footer {
 
 .navbar-light .navbar-brand {
   color: white; }
+
+.navbar-light .navbar-toggler {
+  border-radius: 5px;
+  border-color: black;
+  background-color: #CE0000; }
 
 .imgLogo {
   width: 120px;
