@@ -340,9 +340,18 @@ footer{
 
 .row{
     .card{
+        margin: 25px;
         .card-body{
             .card-title{
                 font-size: 20px;
+                color: white;
+            }
+            .card-text{
+                color: white;
+            }
+            .btn-primary{
+                background-color: #000000;
+                border-color: $color-principal;
             }
         }
     

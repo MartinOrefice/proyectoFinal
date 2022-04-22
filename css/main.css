@@ -251,8 +251,16 @@ footer {
   .card:hover {
     transform: scale(1.1); }
 
-.row .card .card-body .card-title {
-  font-size: 20px; }
+.row .card {
+  margin: 25px; }
+  .row .card .card-body .card-title {
+    font-size: 20px;
+    color: white; }
+  .row .card .card-body .card-text {
+    color: white; }
+  .row .card .card-body .btn-primary {
+    background-color: #000000;
+    border-color: #CE0000; }
 
 /* MEDIA QUERIES */
 /*TABLETS*/
