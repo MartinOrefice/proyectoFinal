@@ -216,6 +216,13 @@ footer {
   grid-area: footer; }
 
 /*nav bootstrap*/
+.row {
+  --bs-gutter-x: 0rem; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
 .navbar-nav .nav-item {
   display: inline-block;
   padding: 40px;
@@ -236,23 +243,7 @@ footer {
 
 /*NOSOTROS*/
 .mainNosotros {
-  height: 500px;
-  display: flex;
-  justify-content: center; }
-  .mainNosotros div {
-    display: inline-block; }
-    .mainNosotros div h1 {
-      font-size: 40px;
-      color: white;
-      padding: 10px;
-      border: 1px solid #CE0000;
-      border-radius: 15px;
-      text-align: center;
-      margin: 50px; }
-  .mainNosotros .contenedorParrafo {
-    display: inline-block; }
-    .mainNosotros .contenedorParrafo p {
-      color: white; }
+  height: 100vh; }
 
 /* promociones */
 .card {

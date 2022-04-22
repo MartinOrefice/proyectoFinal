@@ -288,6 +288,13 @@ footer{
 }
 
 /*nav bootstrap*/
+.row{
+    --bs-gutter-x: 0rem;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .navbar-nav{
     .nav-item{
@@ -319,28 +326,7 @@ footer{
 /*NOSOTROS*/
 
 .mainNosotros{
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    div{
-        display: inline-block;
-        h1{
-        
-            font-size: 40px;
-            color: white;
-            padding: 10px;
-            border: 1px solid $color-principal;
-            border-radius: 15px;
-            text-align: center;
-            margin: 50px; 
-        }
-    }
-    .contenedorParrafo{
-        display: inline-block;
-        p{
-            color: white;
-        }
-    }
+    height: 100vh;
 }
 
 /* promociones */
