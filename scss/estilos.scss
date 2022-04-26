@@ -1,5 +1,6 @@
 //variables
 @import "utilities/variables";
+@import "utilities/mixins";
 
 
 /*RESET*/
@@ -66,15 +67,13 @@ header{
     background-color: black;
     justify-content: center;
     img{
-        width: 300px;
+        width: $med-img + 100;
     }
 }
 
 main{
     grid-area: main;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex;
     background-color: rgb(0, 0, 0);
     
 }
@@ -129,16 +128,14 @@ main{
     background-color: black;
     justify-content: center;
     img{
-        width: 300px;
+        width: $med-img + 100;
     }
 }
 
 footer{
     grid-area: footer;
-    display: flex;
+    @include flex;
     background-color: black;
-    justify-content: center;
-    align-items: center;
     .contenidoFooter{
         font-size: 20px;
         color: white;
@@ -173,7 +170,7 @@ footer{
     align-items: center;
     background-color: rgb(0, 0, 0);
     img{
-        width: 200px;
+        width: $med-img;
     }
 }
 
@@ -184,7 +181,7 @@ footer{
     align-items: center;
     background-color: rgb(0, 0, 0);
     img{
-        width: 200px;
+        width: $med-img;
     }
 }
 
@@ -195,40 +192,34 @@ footer{
     align-items: center;
     background-color: rgb(0, 0, 0);
     img{
-        width: 200px;
+        width: $med-img;
     }
 }
 
 .sectionCatalogoCuatro{
     grid-area: section4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     background-color: rgb(0, 0, 0);
     img{
-        width: 200px;
+        width: $med-img;
     }
 }
 
 .sectionCatalogoCinco{
     grid-area: section5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     background-color: rgb(0, 0, 0);
     img{
-        width: 200px;
+        width: $med-img;
     }
 }
 
 .sectionCatalogoSeis{
     grid-area: section6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     background-color: rgb(0, 0, 0);
     img{
-        width: 200px;
+        width: $med-img;
     }
 }
 
@@ -403,13 +394,13 @@ footer{
         }
     }
     .section1 img, .section2 img, .section3 img{
-        width: 200px;
+        width: $med-img;
     }
     
     /*CATALOGO*/
 
     .sectionCatalogoUno img, .sectionCatalogoDos img, .sectionCatalogoTres img, .sectionCatalogoCuatro img, .sectionCatalogoCinco img, .sectionCatalogoSeis img{
-        width: 150px;
+        width: $med-img - 50;
     }
     .parrafoCatalogo{
         font-size: 10px;
@@ -419,7 +410,7 @@ footer{
 @media only screen and (max-width: 600px){
     /*INDEX*/
     .imgLogo{
-        width: 100px;
+        width: $med-img - 100;
     }
     header{
         justify-content: center;
@@ -439,7 +430,7 @@ footer{
        }
     }
     .section1 img, .section2 img, .section3 img{
-        width: 100px;
+        width: $med-img - 100;
     }
     .contenidoFooter{
         font-size: 10px;
@@ -448,7 +439,7 @@ footer{
     /*CATALOGO*/
 
     .sectionCatalogoUno img, .sectionCatalogoDos img, .sectionCatalogoTres img, .sectionCatalogoCuatro img, .sectionCatalogoCinco img, .sectionCatalogoSeis img{
-        width: 100px;
+        width: $med-img - 100;
     }
     .parrafoCatalogo{
         font-size: 8px;
@@ -475,7 +466,7 @@ footer{
 
     /*CATALOGO*/
     .sectionCatalogoUno img, .sectionCatalogoDos img, .sectionCatalogoTres img, .sectionCatalogoCuatro img, .sectionCatalogoCinco img, .sectionCatalogoSeis img{
-        width: 100px;
+        width: $med-img - 100;
     }
     .parrafoCatalogo{
         font-size: 10px;

@@ -101,9 +101,9 @@ main {
 footer {
   grid-area: footer;
   display: flex;
-  background-color: black;
+  align-items: center;
   justify-content: center;
-  align-items: center; }
+  background-color: black; }
   footer .contenidoFooter {
     font-size: 20px;
     color: white; }
@@ -150,8 +150,8 @@ footer {
 .sectionCatalogoCuatro {
   grid-area: section4;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: black; }
   .sectionCatalogoCuatro img {
     width: 200px; }
@@ -159,8 +159,8 @@ footer {
 .sectionCatalogoCinco {
   grid-area: section5;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: black; }
   .sectionCatalogoCinco img {
     width: 200px; }
@@ -168,8 +168,8 @@ footer {
 .sectionCatalogoSeis {
   grid-area: section6;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: black; }
   .sectionCatalogoSeis img {
     width: 200px; }
