@@ -1,6 +1,8 @@
 //variables
 @import "utilities/variables";
 @import "utilities/mixins";
+@import "utilities/extends";
+@import "utilities/mapas";
 
 
 /*RESET*/
@@ -151,7 +153,7 @@ footer{
     display: flex;
     justify-content: start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    @extend %bg-color;
     img{
         width: $med-img;
     }
@@ -162,7 +164,7 @@ footer{
     display: flex;
     justify-content: start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    @extend %bg-color;
     img{
         width: $med-img;
     }
@@ -173,7 +175,7 @@ footer{
     display: flex;
     justify-content: start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    @extend %bg-color;
     img{
         width: $med-img;
     }
@@ -182,7 +184,7 @@ footer{
 .sectionCatalogoCuatro{
     grid-area: section4;
     @include flex;
-    background-color: rgb(0, 0, 0);
+    @extend %bg-color;
     img{
         width: $med-img;
     }
@@ -191,7 +193,7 @@ footer{
 .sectionCatalogoCinco{
     grid-area: section5;
     @include flex;
-    background-color: rgb(0, 0, 0);
+    @extend %bg-color;
     img{
         width: $med-img;
     }
@@ -200,7 +202,7 @@ footer{
 .sectionCatalogoSeis{
     grid-area: section6;
     @include flex;
-    background-color: rgb(0, 0, 0);
+    @extend %bg-color;
     img{
         width: $med-img;
     }
@@ -255,7 +257,7 @@ footer{
             .inputSubmit{
                 padding: 5px 15px 5px 15px;
                 border: #000000;
-                background-color: $color-principal;
+                background-color: map-get($map: $btn-contacto , $key: bg-btn);
                 color: white;
             }
         }
@@ -336,6 +338,7 @@ footer{
         font-size: 25px;
         margin: 20px;
         padding: 20px;
+        letter-spacing: 5px;
         background-color: #2e2e2e;
         border-radius: 20px;
         box-shadow: 0px 0px 5px red;
@@ -365,7 +368,7 @@ footer{
                 color: white;
             }
             .btn-primary{
-                background-color: #000000;
+                background-color: map-get($map: $btn-card, $key: bg-btn );
                 border-color: $color-principal;
             }
         }
