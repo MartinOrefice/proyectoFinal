@@ -5,3 +5,13 @@
     align-items: center;
     justify-content: center;
 }
+
+@mixin titulos {
+    font-size: 40px;
+        color: white;
+        padding: 10px;
+        border: 1px solid $color-principal;
+        border-radius: 15px;
+        text-align: center;
+        margin: 50px;
+}

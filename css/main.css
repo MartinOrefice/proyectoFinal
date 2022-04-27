@@ -252,8 +252,38 @@ footer {
   padding-left: 20px; }
 
 /*NOSOTROS*/
+.contenedorNosotros {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.2fr 7.5fr 0.8fr;
+  /*estructurar areas*/
+  grid-template-areas: "header header header" "mainNo mainNo mainNo"   "footer footer footer"; }
+
 .mainNosotros {
-  height: 100vh; }
+  grid-area: mainNo;
+  display: flex;
+  flex-direction: column; }
+  .mainNosotros .tituloNosotros {
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    border: 1px solid #CE0000;
+    border-radius: 15px;
+    text-align: center;
+    margin: 50px;
+    background-color: #000000; }
+  .mainNosotros .parrafoNosotros {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 50px;
+    padding: 20px;
+    letter-spacing: 5px;
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px red;
+    text-transform: uppercase; }
 
 /* promociones */
 .card {
@@ -333,4 +363,5 @@ footer {
     font-size: 10px; }
   /*PROMOCIONES*/
   .tituloPromos {
-    font-size: 25px; } }
+    font-size: 25px; }
+  /*NOSOTROS*/ }
