@@ -277,9 +277,8 @@ footer {
     text-align: center;
     color: white;
     font-size: 25px;
-    margin: 50px;
+    margin: 20px;
     padding: 20px;
-    letter-spacing: 5px;
     background-color: #2e2e2e;
     border-radius: 20px;
     box-shadow: 0px 0px 5px red;
@@ -324,7 +323,19 @@ footer {
   .sectionCatalogoUno img, .sectionCatalogoDos img, .sectionCatalogoTres img, .sectionCatalogoCuatro img, .sectionCatalogoCinco img, .sectionCatalogoSeis img {
     width: 150px; }
   .parrafoCatalogo {
-    font-size: 10px; } }
+    font-size: 10px; }
+  /*NOSOTROS*/
+  .mainNosotros .parrafoNosotros {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+    padding: 20px;
+    letter-spacing: 5px;
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px red;
+    text-transform: uppercase; } }
 
 @media only screen and (max-width: 600px) {
   /*INDEX*/
@@ -346,12 +357,24 @@ footer {
   .sectionCatalogoUno img, .sectionCatalogoDos img, .sectionCatalogoTres img, .sectionCatalogoCuatro img, .sectionCatalogoCinco img, .sectionCatalogoSeis img {
     width: 100px; }
   .parrafoCatalogo {
-    font-size: 8px; } }
+    font-size: 8px; }
+  /*NOSOTROS*/
+  .mainNosotros .parrafoNosotros {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+    padding: 20px;
+    letter-spacing: 5px;
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px red;
+    text-transform: uppercase; } }
 
 @media only screen and (max-width: 480px) {
   /*INDEX*/
   .imgLogo {
-    width: 70px; }
+    width: 100px; }
   .mainIndex .tituloIndex {
     font-size: 10px; }
   footer .contenidoFooter {
@@ -363,5 +386,16 @@ footer {
     font-size: 10px; }
   /*PROMOCIONES*/
   .tituloPromos {
-    font-size: 25px; }
-  /*NOSOTROS*/ }
+    font-size: 40px; }
+  /*NOSOTROS*/
+  .mainNosotros .parrafoNosotros {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+    padding: 20px;
+    letter-spacing: 5px;
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px red;
+    text-transform: uppercase; } }
