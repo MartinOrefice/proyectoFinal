@@ -193,7 +193,8 @@ footer {
     padding: 40px;
     border: 2px solid #CE0000;
     border-radius: 20px;
-    font-size: 20px; }
+    font-size: 20px;
+    box-shadow: 5px 5px 50px #CE0000; }
     .mainContacto form legend {
       text-align: center;
       font-size: 35px; }
@@ -279,7 +280,7 @@ footer {
     letter-spacing: 5px;
     background-color: #2e2e2e;
     border-radius: 20px;
-    box-shadow: 0px 0px 5px red;
+    box-shadow: 8px 8px 90px #CE0000;
     text-transform: uppercase; }
 
 /* promociones */
@@ -332,7 +333,7 @@ footer {
     letter-spacing: 5px;
     background-color: #2e2e2e;
     border-radius: 20px;
-    box-shadow: 0px 0px 5px red;
+    box-shadow: 8px 8px 90px #CE0000;
     text-transform: uppercase; } }
 
 @media only screen and (max-width: 600px) {
@@ -366,7 +367,7 @@ footer {
     letter-spacing: 5px;
     background-color: #2e2e2e;
     border-radius: 20px;
-    box-shadow: 0px 0px 5px red;
+    box-shadow: 7px 7px 80px #CE0000;
     text-transform: uppercase; } }
 
 @media only screen and (max-width: 480px) {
@@ -395,5 +396,5 @@ footer {
     letter-spacing: 5px;
     background-color: #2e2e2e;
     border-radius: 20px;
-    box-shadow: 0px 0px 5px red;
+    box-shadow: 4px 4px 50px #CE0000;
     text-transform: uppercase; } }
