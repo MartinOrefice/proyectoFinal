@@ -83,7 +83,7 @@ main{
     .tituloIndex{
         @include titulos;
         span{
-            display: inline-block;
+            display: block;
         }
     }
 }

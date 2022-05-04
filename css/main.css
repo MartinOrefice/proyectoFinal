@@ -68,7 +68,7 @@ main {
   text-align: center;
   margin: 50px; }
   .mainIndex .tituloIndex span {
-    display: inline-block; }
+    display: block; }
 
 .mainCatalogo h1 {
   font-size: 40px;
