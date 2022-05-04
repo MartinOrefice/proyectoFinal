@@ -3,7 +3,6 @@
 @import "utilities/mixins";
 @import "utilities/extends";
 @import "utilities/mapas";
-@import "utilities/medias";
 
 /*RESET*/
 
@@ -83,6 +82,9 @@ main{
 .mainIndex{
     .tituloIndex{
         @include titulos;
+        span{
+            display: inline-block;
+        }
     }
 }
 
